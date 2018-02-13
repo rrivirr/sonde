@@ -1,5 +1,4 @@
-
-#Deploying a sonde in sand, silt, or mud sediment
+##Deploying a sonde in sand, silt, or mud sediment
 * Cross two pieces of rebar and tie together at the top with Zip Ties.
 
 
