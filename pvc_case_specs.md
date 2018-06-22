@@ -17,3 +17,5 @@
 * 2.5" PVC seems to be ideal based on the dimensions of the aduino. The downside is that this is a non-standard size, so we might have to do things like purchase from McMaster or plumbing shops (they are around). At least some of this stuff can be bought a Home Despot or Lowes, but McMaster is pretty great (and very fast).
 * The Arduino is 2.1" in diameter. The get it fixed in there securely I think that gluing styrofoam inside the PVC tubing is the best bet. Cut out some rails for the Arduino and then glue the styrofoam in. I don't think this has to be fancy to work.
 * There is no reason to believe the JB Weld will melt the heat shrink tubing.
+* We are moving to a new case design, but this one will work
+* You need to use silicone to ensure a tight seal, and should place dessicant in the case when deploying
