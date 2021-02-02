@@ -1,4 +1,6 @@
-# Testing marine IP68 Black Plastic Cable Glands
+# Case development notes
+
+## Testing marine IP68 black plastic cable glands
 DG20 for conductance sensors
 DG8 for temperature sensors
 Full cable gland specifications:
