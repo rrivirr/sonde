@@ -31,9 +31,9 @@ $EXTMIN
   9
 $EXTMAX
  10
-151.7657941293393
+143.4600152063622
  20
-111.6010446587064
+111.4600152063622
  30
 0
   9
@@ -775,9 +775,9 @@ $MAXACTVP
   9
 $PINSBASE
  10
--135.8661417322835
+-135.8613701991341
  20
--102.1535433070866
+-103.8013213566947
  30
 0
   9
@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-73.50650201904293
+72.23792469517568
  22
-56.54202114674595
+55.12504590208721
  13
 0
  23
@@ -1149,7 +1149,7 @@ AcDbViewportTableRecord
  37
 0
  40
-9.94749670301907
+6.735155262941123
  41
 1.292713567839196
  42
@@ -2273,6 +2273,28 @@ CONTINUOUS
 390
 F
   0
+LAYER
+  5
+4B
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+Markup2
+ 70
+    1
+ 62
+    7
+  6
+CONTINUOUS
+370
+    0
+390
+F
+  0
 ENDTAB
   0
 TABLE
@@ -2289,7 +2311,7 @@ AcDbSymbolTable
   0
 STYLE
   5
-4B
+4C
 330
 2
 100
@@ -2373,7 +2395,7 @@ ACAD
   0
 APPID
   5
-4C
+4D
 330
 9
 100
@@ -2405,7 +2427,7 @@ AcDbDimStyleTable
   0
 DIMSTYLE
 105
-4D
+4E
 330
 A
 100
@@ -2679,7 +2701,7 @@ ENTITIES
   0
 LINE
   5
-4E
+4F
 100
 AcDbEntity
   8
@@ -2703,7 +2725,7 @@ AcDbLine
   0
 LINE
   5
-4F
+50
 100
 AcDbEntity
   8
@@ -2727,7 +2749,7 @@ AcDbLine
   0
 LINE
   5
-50
+51
 100
 AcDbEntity
   8
@@ -2751,7 +2773,7 @@ AcDbLine
   0
 LINE
   5
-51
+52
 100
 AcDbEntity
   8
@@ -2772,30 +2794,6 @@ AcDbLine
 137.5058468371008
  21
 106.56
-  0
-LINE
-  5
-52
-100
-AcDbEntity
-  8
-Markup
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-137.5058468371008
- 20
-106.56
- 11
-140
- 21
-105.12
   0
 LINE
   5
@@ -2813,6 +2811,30 @@ ByLayer
 100
 AcDbLine
  10
+137.5058468371008
+ 20
+106.56
+ 11
+140
+ 21
+105.12
+  0
+LINE
+  5
+54
+100
+AcDbEntity
+  8
+Markup
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
 140
  20
 105.12
@@ -2823,7 +2845,7 @@ AcDbLine
   0
 LINE
   5
-54
+55
 100
 AcDbEntity
   8
@@ -2847,7 +2869,7 @@ AcDbLine
   0
 LINE
   5
-55
+56
 100
 AcDbEntity
   8
@@ -2871,7 +2893,7 @@ AcDbLine
   0
 CIRCLE
   5
-56
+57
 100
 AcDbEntity
   8
@@ -2893,7 +2915,7 @@ AcDbCircle
   0
 CIRCLE
   5
-57
+58
 100
 AcDbEntity
   8
@@ -2915,7 +2937,7 @@ AcDbCircle
   0
 CIRCLE
   5
-58
+59
 100
 AcDbEntity
   8
@@ -2937,7 +2959,7 @@ AcDbCircle
   0
 CIRCLE
   5
-59
+5A
 100
 AcDbEntity
   8
@@ -2959,7 +2981,7 @@ AcDbCircle
   0
 CIRCLE
   5
-5A
+5B
 100
 AcDbEntity
   8
@@ -2981,7 +3003,7 @@ AcDbCircle
   0
 CIRCLE
   5
-5B
+5C
 100
 AcDbEntity
   8
@@ -3003,28 +3025,6 @@ AcDbCircle
   0
 CIRCLE
   5
-5C
-100
-AcDbEntity
-  8
-Markup
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-141.6
- 20
-108
- 40
-0.377
-  0
-CIRCLE
-  5
 5D
 100
 AcDbEntity
@@ -3039,7 +3039,7 @@ ByLayer
 100
 AcDbCircle
  10
-140
+141.6
  20
 108
  40
@@ -3063,7 +3063,7 @@ AcDbCircle
  10
 140
  20
-106.4
+108
  40
 0.377
   0
@@ -3073,7 +3073,7 @@ CIRCLE
 100
 AcDbEntity
   8
-0
+Markup
   6
 ByLayer
  62
@@ -3083,103 +3083,15 @@ ByLayer
 100
 AcDbCircle
  10
-137.5066303458967
+140
  20
-109.4406635240893
+106.4
  40
-0.375
+0.377
   0
 CIRCLE
   5
 60
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-140.0000037775403
- 20
-110.878414773311
- 40
-0.375
-  0
-CIRCLE
-  5
-61
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-142.494723493248
- 20
-109.43967684798
- 40
-0.375
-  0
-CIRCLE
-  5
-62
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-142.4927673348435
- 20
-106.5590939522102
- 40
-0.375
-  0
-CIRCLE
-  5
-63
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-139.9995327597195
- 20
-105.1189840721108
- 40
-0.375
-  0
-CIRCLE
-  5
-64
 100
 AcDbEntity
   8
@@ -3201,29 +3113,7 @@ AcDbCircle
   0
 CIRCLE
   5
-65
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-137.5065735851882
- 20
-106.5599903860421
- 40
-0.375
-  0
-CIRCLE
-  5
-66
+61
 100
 AcDbEntity
   8
@@ -3241,7 +3131,503 @@ AcDbCircle
  20
 108
  40
-3.543537295827107
+3.460015206362166
+  0
+CIRCLE
+  5
+62
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+139.3398136150835
+ 20
+107.9994679967077
+ 40
+0.51
+  0
+CIRCLE
+  5
+63
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+140.9728973281908
+ 20
+107.9881615197399
+ 40
+0.245
+  0
+CIRCLE
+  5
+64
+100
+AcDbEntity
+  8
+Markup2
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+140
+ 20
+108
+ 40
+2.5625
+  0
+CIRCLE
+  5
+65
+100
+AcDbEntity
+  8
+Markup2
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+140
+ 20
+108
+ 40
+1.9375
+  0
+CIRCLE
+  5
+66
+100
+AcDbEntity
+  8
+Markup2
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+140
+ 20
+110.8
+ 40
+0.14
+  0
+LINE
+  5
+67
+100
+AcDbEntity
+  8
+Markup2
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+140
+ 20
+110.8
+ 11
+137.5751288694036
+ 21
+109.4
+  0
+LINE
+  5
+68
+100
+AcDbEntity
+  8
+Markup2
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+137.5751288694036
+ 20
+109.4
+ 11
+137.5751288694036
+ 21
+106.6
+  0
+LINE
+  5
+69
+100
+AcDbEntity
+  8
+Markup2
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+137.5751288694036
+ 20
+106.6
+ 11
+140
+ 21
+105.2
+  0
+LINE
+  5
+6A
+100
+AcDbEntity
+  8
+Markup2
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+140
+ 20
+105.2
+ 11
+142.4248711305964
+ 21
+106.6
+  0
+LINE
+  5
+6B
+100
+AcDbEntity
+  8
+Markup2
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+142.4248711305964
+ 20
+106.6
+ 11
+142.4248711305964
+ 21
+109.4
+  0
+LINE
+  5
+6C
+100
+AcDbEntity
+  8
+Markup2
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+142.4248711305964
+ 20
+109.4
+ 11
+140
+ 21
+110.8
+  0
+CIRCLE
+  5
+6D
+100
+AcDbEntity
+  8
+Markup2
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+142.4248711305964
+ 20
+109.4
+ 40
+0.14
+  0
+CIRCLE
+  5
+6E
+100
+AcDbEntity
+  8
+Markup2
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+142.4248711305964
+ 20
+106.6
+ 40
+0.14
+  0
+CIRCLE
+  5
+6F
+100
+AcDbEntity
+  8
+Markup2
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+140
+ 20
+105.2
+ 40
+0.14
+  0
+CIRCLE
+  5
+70
+100
+AcDbEntity
+  8
+Markup2
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+137.5751288694036
+ 20
+106.6
+ 40
+0.14
+  0
+CIRCLE
+  5
+71
+100
+AcDbEntity
+  8
+Markup2
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+137.5751288694036
+ 20
+109.4
+ 40
+0.14
+  0
+CIRCLE
+  5
+72
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+140
+ 20
+110.8
+ 40
+0.2
+  0
+CIRCLE
+  5
+73
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+142.4248711305964
+ 20
+109.4
+ 40
+0.2
+  0
+CIRCLE
+  5
+74
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+142.4248711305964
+ 20
+106.6
+ 40
+0.2
+  0
+CIRCLE
+  5
+75
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+140
+ 20
+105.2
+ 40
+0.2
+  0
+CIRCLE
+  5
+76
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+137.5751288694036
+ 20
+106.6
+ 40
+0.2
+  0
+CIRCLE
+  5
+77
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+137.5751288694036
+ 20
+109.4
+ 40
+0.2
   0
 ENDSEC
   0
