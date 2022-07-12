@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-0
+Gland D=[1.03,0.5]"
   9
 $CELTYPE
   6
@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-2.895100910973918
+1.479252128832194
  22
-1.483638970997714
+0.8166484648474451
  13
 0
  23
@@ -1149,7 +1149,7 @@ AcDbViewportTableRecord
  37
 0
  40
-5.862378852969346
+3.085116422757015
  41
 2.12859097127223
  42
@@ -2261,7 +2261,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-Gland D=[1.03,0.5]"
+Gland D=[0.82,0.5]"
  70
     0
  62
@@ -2283,9 +2283,9 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-Gland D=[0.8,0.5]"
+Gland D=[1.03,0.5]"
  70
-    0
+    1
  62
     7
   6
@@ -3162,8 +3162,6 @@ AcDbDimension
    32
  71
     5
- 72
-    0
   3
 Standard
  53
@@ -3221,7 +3219,7 @@ CIRCLE
 100
 AcDbEntity
   8
-Gland D=[1.03,0.5]"
+Gland D=[0.82,0.5]"
   6
 ByLayer
  62
@@ -3233,9 +3231,9 @@ AcDbCircle
  10
 0
  20
-0.7752406745142646
+0.750779429274017
  40
-0.515
+0.41
   0
 CIRCLE
   5
@@ -3243,7 +3241,7 @@ CIRCLE
 100
 AcDbEntity
   8
-Gland D=[1.03,0.5]"
+Gland D=[0.82,0.5]"
   6
 ByLayer
  62
@@ -3255,9 +3253,9 @@ AcDbCircle
  10
 0
  20
-0.7752406745142646
+0.750779429274017
  40
-0.515
+0.41
   0
 CIRCLE
   5
@@ -3265,7 +3263,7 @@ CIRCLE
 100
 AcDbEntity
   8
-Gland D=[1.03,0.5]"
+Gland D=[0.82,0.5]"
   6
 ByLayer
  62
@@ -3277,7 +3275,7 @@ AcDbCircle
  10
 0
  20
--0.700587313512533
+-0.7507037019154735
  40
 0.25
   0
@@ -3287,7 +3285,7 @@ CIRCLE
 100
 AcDbEntity
   8
-Gland D=[0.8,0.5]"
+Gland D=[0.82,0.5]"
   6
 ByLayer
  62
@@ -3299,7 +3297,7 @@ AcDbCircle
  10
 0
  20
--0.6980916425146164
+-0.7507037019154735
  40
 0.25
   0
@@ -3309,7 +3307,7 @@ CIRCLE
 100
 AcDbEntity
   8
-Gland D=[0.8,0.5]"
+Gland D=[1.03,0.5]"
   6
 ByLayer
  62
@@ -3321,9 +3319,75 @@ AcDbCircle
  10
 0
  20
-0.7539994147506358
+-0.7508590960885905
  40
-0.4
+0.25
+  0
+CIRCLE
+  5
+67
+100
+AcDbEntity
+  8
+Gland D=[1.03,0.5]"
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+0
+ 20
+-0.7508590960885905
+ 40
+0.25
+  0
+CIRCLE
+  5
+68
+100
+AcDbEntity
+  8
+Gland D=[1.03,0.5]"
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+0
+ 20
+0.7535170043933292
+ 40
+0.515
+  0
+CIRCLE
+  5
+69
+100
+AcDbEntity
+  8
+Gland D=[1.03,0.5]"
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+0
+ 20
+0.7535170043933292
+ 40
+0.515
   0
 ENDSEC
   0
