@@ -33,7 +33,7 @@ $EXTMAX
  10
 2.618
  20
-2.61725046566048
+2.618
  30
 0
   9
@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-Gland D=[1.03,0.5]", TODO: rearrange
+removable sensor cage holes
   9
 $CELTYPE
   6
@@ -777,7 +777,7 @@ $PINSBASE
  10
 4.517454973191284
  20
-5.897093539956581
+5.89671877278682
  30
 0
   9
@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-2.737372366873052
+2.529407372481991
  22
-1.405980084892562
+1.351018774619461
  13
 0
  23
@@ -1149,7 +1149,7 @@ AcDbViewportTableRecord
  37
 0
  40
-5.452368392872481
+5.486637356926811
  41
 1.963064295485636
  42
@@ -2309,7 +2309,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-Gland D=2x[0.82]" position OD(1.181"), 1-1/4" PVC sch 40 OD
+Gland D=2x[0.82]" position OD 1.181", 1-1/4" PVC sch 40 cap OD 2"
  70
     0
  62
@@ -2403,7 +2403,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-Panel Guide
+Panel Guide L=2.618
  70
     0
  62
@@ -2414,6 +2414,28 @@ CONTINUOUS
 0
 370
     0
+390
+F
+  0
+LAYER
+  5
+51
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+removable sensor cage holes
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+    5
 390
 F
   0
@@ -2433,7 +2455,7 @@ AcDbSymbolTable
   0
 STYLE
   5
-51
+52
 330
 2
 100
@@ -2517,7 +2539,7 @@ ACAD
   0
 APPID
   5
-52
+53
 330
 9
 100
@@ -2549,7 +2571,7 @@ AcDbDimStyleTable
   0
 DIMSTYLE
 105
-53
+54
 330
 A
 100
@@ -2733,7 +2755,7 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-54
+55
 330
 1
 100
@@ -2835,9 +2857,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-55
+56
 330
-54
+55
 100
 AcDbEntity
   8
@@ -2859,7 +2881,7 @@ AcDbBlockBegin
   0
 LINE
   5
-57
+58
 100
 AcDbEntity
   8
@@ -2883,7 +2905,7 @@ AcDbLine
   0
 SOLID
   5
-58
+59
 100
 AcDbEntity
   8
@@ -2923,7 +2945,7 @@ AcDbTrace
   0
 SOLID
   5
-59
+5A
 100
 AcDbEntity
   8
@@ -2963,7 +2985,7 @@ AcDbTrace
   0
 MTEXT
   5
-5A
+5B
 100
 AcDbEntity
   8
@@ -3009,7 +3031,7 @@ standard
   0
 LINE
   5
-5B
+5C
 100
 AcDbEntity
   8
@@ -3033,7 +3055,7 @@ AcDbLine
   0
 LINE
   5
-5C
+5D
 100
 AcDbEntity
   8
@@ -3057,9 +3079,9 @@ AcDbLine
   0
 ENDBLK
   5
-56
+57
 330
-54
+55
 100
 AcDbEntity
   8
@@ -3075,7 +3097,7 @@ ENTITIES
   0
 CIRCLE
   5
-5D
+5E
 100
 AcDbEntity
   8
@@ -3097,7 +3119,7 @@ AcDbCircle
   0
 CIRCLE
   5
-5E
+5F
 100
 AcDbEntity
   8
@@ -3119,7 +3141,7 @@ AcDbCircle
   0
 CIRCLE
   5
-5F
+60
 100
 AcDbEntity
   8
@@ -3141,7 +3163,7 @@ AcDbCircle
   0
 CIRCLE
   5
-60
+61
 100
 AcDbEntity
   8
@@ -3163,7 +3185,7 @@ AcDbCircle
   0
 CIRCLE
   5
-61
+62
 100
 AcDbEntity
   8
@@ -3185,7 +3207,7 @@ AcDbCircle
   0
 CIRCLE
   5
-62
+63
 100
 AcDbEntity
   8
@@ -3207,7 +3229,7 @@ AcDbCircle
   0
 CIRCLE
   5
-63
+64
 100
 AcDbEntity
   8
@@ -3229,7 +3251,7 @@ AcDbCircle
   0
 DIMENSION
   5
-64
+65
 100
 AcDbEntity
   8
@@ -3293,28 +3315,6 @@ AcDbRotatedDimension
   0
 CIRCLE
   5
-65
-100
-AcDbEntity
-  8
-Gland D=[0.82,0.5]", TODO: rearrange
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-0
- 20
-0.750779429274017
- 40
-0.41
-  0
-CIRCLE
-  5
 66
 100
 AcDbEntity
@@ -3353,9 +3353,9 @@ AcDbCircle
  10
 0
  20
--0.7507037019154735
+0.750779429274017
  40
-0.25
+0.41
   0
 CIRCLE
   5
@@ -3385,7 +3385,7 @@ CIRCLE
 100
 AcDbEntity
   8
-Gland D=[1.03,0.5]", TODO: rearrange
+Gland D=[0.82,0.5]", TODO: rearrange
   6
 ByLayer
  62
@@ -3397,7 +3397,7 @@ AcDbCircle
  10
 0
  20
--0.7508590960885905
+-0.7507037019154735
  40
 0.25
   0
@@ -3441,9 +3441,9 @@ AcDbCircle
  10
 0
  20
-0.7535170043933292
+-0.7508590960885905
  40
-0.515
+0.25
   0
 CIRCLE
   5
@@ -3473,6 +3473,28 @@ CIRCLE
 100
 AcDbEntity
   8
+Gland D=[1.03,0.5]", TODO: rearrange
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+0
+ 20
+0.7535170043933292
+ 40
+0.515
+  0
+CIRCLE
+  5
+6E
+100
+AcDbEntity
+  8
 3" ABS coupler 3.955" OD 
   6
 ByLayer
@@ -3488,28 +3510,6 @@ AcDbCircle
 0
  40
 1.9775
-  0
-CIRCLE
-  5
-6E
-100
-AcDbEntity
-  8
-3" ABS sch 40 [3.5" OD, 3.042" ID]
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-0
- 20
-0
- 40
-1.521
   0
 CIRCLE
   5
@@ -3531,11 +3531,33 @@ AcDbCircle
  20
 0
  40
-1.75
+1.521
   0
 CIRCLE
   5
 70
+100
+AcDbEntity
+  8
+3" ABS sch 40 [3.5" OD, 3.042" ID]
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 40
+1.75
+  0
+CIRCLE
+  5
+71
 100
 AcDbEntity
   8
@@ -3557,7 +3579,7 @@ AcDbCircle
   0
 CIRCLE
   5
-71
+72
 100
 AcDbEntity
   8
@@ -3579,7 +3601,7 @@ AcDbCircle
   0
 CIRCLE
   5
-72
+73
 100
 AcDbEntity
   8
@@ -3601,7 +3623,7 @@ AcDbCircle
   0
 CIRCLE
   5
-73
+74
 100
 AcDbEntity
   8
@@ -3623,11 +3645,11 @@ AcDbCircle
   0
 LINE
   5
-74
+75
 100
 AcDbEntity
   8
-Panel Guide
+Panel Guide L=2.618
   6
 ByLayer
  62
@@ -3647,11 +3669,11 @@ AcDbLine
   0
 LINE
   5
-75
+76
 100
 AcDbEntity
   8
-Panel Guide
+Panel Guide L=2.618
   6
 ByLayer
  62
@@ -3671,11 +3693,11 @@ AcDbLine
   0
 LINE
   5
-76
+77
 100
 AcDbEntity
   8
-Panel Guide
+Panel Guide L=2.618
   6
 ByLayer
  62
@@ -3695,11 +3717,11 @@ AcDbLine
   0
 LINE
   5
-77
+78
 100
 AcDbEntity
   8
-Panel Guide
+Panel Guide L=2.618
   6
 ByLayer
  62
@@ -3719,11 +3741,11 @@ AcDbLine
   0
 LINE
   5
-78
+79
 100
 AcDbEntity
   8
-Panel Guide
+Panel Guide L=2.618
   6
 ByLayer
  62
@@ -3743,11 +3765,11 @@ AcDbLine
   0
 LINE
   5
-79
+7A
 100
 AcDbEntity
   8
-Panel Guide
+Panel Guide L=2.618
   6
 ByLayer
  62
@@ -3767,11 +3789,11 @@ AcDbLine
   0
 CIRCLE
   5
-7A
+7B
 100
 AcDbEntity
   8
-Panel Guide
+Panel Guide L=2.618
   6
 ByLayer
  62
@@ -3787,35 +3809,13 @@ AcDbCircle
  40
 2.2438
   0
-CIRCLE
-  5
-7B
-100
-AcDbEntity
-  8
-Gland D=2x[0.82]" position OD(1.181"), 1-1/4" PVC sch 40 OD
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-0.4340000000000003
- 20
-0.7517100504848926
- 40
-0.5905666000000001
-  0
-CIRCLE
+LINE
   5
 7C
 100
 AcDbEntity
   8
-Gland D=2x[0.82]" position OD(1.181"), 1-1/4" PVC sch 40 OD
+Panel Guide L=2.618
   6
 ByLayer
  62
@@ -3823,21 +3823,23 @@ ByLayer
 370
    -1
 100
-AcDbCircle
+AcDbLine
  10
--0.4340000000000004
+0
  20
--0.7517100504848925
- 40
-0.5905666000000001
+0
+ 11
+2.267254507107661
+ 21
+1.309
   0
-CIRCLE
+LINE
   5
 7D
 100
 AcDbEntity
   8
-Gland D=2x[0.82]", 1/16" gap
+Panel Guide L=2.618
   6
 ByLayer
  62
@@ -3845,20 +3847,162 @@ ByLayer
 370
    -1
 100
-AcDbCircle
+AcDbLine
  10
--0.4340000000000004
+0
  20
--0.7517100504848925
- 40
-0.42
+0
+ 11
+1.603062660083885e-16
+ 21
+2.618
   0
-CIRCLE
+LINE
   5
 7E
 100
 AcDbEntity
   8
+Panel Guide L=2.618
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+0
+ 20
+0
+ 11
+-2.267254507107661
+ 21
+1.309
+  0
+LINE
+  5
+7F
+100
+AcDbEntity
+  8
+Panel Guide L=2.618
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+0
+ 20
+0
+ 11
+-2.26725450710766
+ 21
+-1.309
+  0
+LINE
+  5
+80
+100
+AcDbEntity
+  8
+Panel Guide L=2.618
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+0
+ 20
+0
+ 11
+-4.809187980251656e-16
+ 21
+-2.618
+  0
+LINE
+  5
+81
+100
+AcDbEntity
+  8
+Panel Guide L=2.618
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+0
+ 20
+0
+ 11
+2.26725450710766
+ 21
+-1.309000000000001
+  0
+CIRCLE
+  5
+82
+100
+AcDbEntity
+  8
+Gland D=2x[0.82]" position OD 1.181", 1-1/4" PVC sch 40 cap OD 2"
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+0.4496250000000003
+ 20
+0.7787733443531563
+ 40
+1
+  0
+CIRCLE
+  5
+83
+100
+AcDbEntity
+  8
+Gland D=2x[0.82]" position OD 1.181", 1-1/4" PVC sch 40 cap OD 2"
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-0.4496250000000004
+ 20
+-0.7787733443531561
+ 40
+1
+  0
+CIRCLE
+  5
+84
+100
+AcDbEntity
+  8
 Gland D=2x[0.82]", 1/16" gap
   6
 ByLayer
@@ -3869,19 +4013,19 @@ ByLayer
 100
 AcDbCircle
  10
-0.4340000000000003
+0.4496250000000003
  20
-0.7517100504848926
+0.7787733443531563
  40
 0.42
   0
 CIRCLE
   5
-7F
+85
 100
 AcDbEntity
   8
-Gland D=2x[0.82]" position OD(1.181"), 1-1/4" PVC sch 40 OD
+Gland D=2x[0.82]", 1/16" gap
   6
 ByLayer
  62
@@ -3891,19 +4035,19 @@ ByLayer
 100
 AcDbCircle
  10
-0.4340000000000003
+-0.4496250000000004
  20
-0.7517100504848926
+-0.7787733443531561
  40
-0.83
+0.42
   0
 CIRCLE
   5
-80
+86
 100
 AcDbEntity
   8
-Gland D=2x[0.82]" position OD(1.181"), 1-1/4" PVC sch 40 OD
+Gland D=2x[0.82]" position OD 1.181", 1-1/4" PVC sch 40 cap OD 2"
   6
 ByLayer
  62
@@ -3913,11 +4057,165 @@ ByLayer
 100
 AcDbCircle
  10
--0.4340000000000004
+0.4496250000000003
  20
--0.7517100504848925
+0.7787733443531563
  40
-0.83
+0.5905
+  0
+CIRCLE
+  5
+87
+100
+AcDbEntity
+  8
+Gland D=2x[0.82]" position OD 1.181", 1-1/4" PVC sch 40 cap OD 2"
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-0.4496250000000004
+ 20
+-0.7787733443531561
+ 40
+0.5905
+  0
+CIRCLE
+  5
+88
+100
+AcDbEntity
+  8
+removable sensor cage holes
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+2.2438
+ 20
+0
+ 40
+0.2
+  0
+CIRCLE
+  5
+89
+100
+AcDbEntity
+  8
+removable sensor cage holes
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1.1219
+ 20
+1.943187801011523
+ 40
+0.2
+  0
+CIRCLE
+  5
+8A
+100
+AcDbEntity
+  8
+removable sensor cage holes
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-1.121899999999999
+ 20
+1.943187801011524
+ 40
+0.2
+  0
+CIRCLE
+  5
+8B
+100
+AcDbEntity
+  8
+removable sensor cage holes
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-2.2438
+ 20
+4.440892098500626e-16
+ 40
+0.2
+  0
+CIRCLE
+  5
+8C
+100
+AcDbEntity
+  8
+removable sensor cage holes
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-1.121900000000001
+ 20
+-1.943187801011523
+ 40
+0.2
+  0
+CIRCLE
+  5
+8D
+100
+AcDbEntity
+  8
+removable sensor cage holes
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1.1219
+ 20
+-1.943187801011523
+ 40
+0.2
   0
 ENDSEC
   0
