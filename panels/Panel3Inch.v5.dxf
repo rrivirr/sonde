@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-removable sensor cage holes
+Gland D=2x[0.82]", 1/16" gap
   9
 $CELTYPE
   6
@@ -775,9 +775,9 @@ $MAXACTVP
   9
 $PINSBASE
  10
-4.517454973191284
+4.599262731817282
  20
-5.89671877278682
+5.907437916198747
  30
 0
   9
@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-2.529407372481991
+2.690779059450431
  22
-1.351018774619461
+1.715043277780819
  13
 0
  23
@@ -1149,7 +1149,7 @@ AcDbViewportTableRecord
  37
 0
  40
-5.486637356926811
+5.486637356926821
  41
 1.963064295485636
  42
@@ -3282,8 +3282,6 @@ AcDbDimension
    32
  71
     5
- 72
-    0
   3
 Standard
  53
@@ -4003,7 +4001,7 @@ CIRCLE
 100
 AcDbEntity
   8
-Gland D=2x[0.82]", 1/16" gap
+Gland D=2x[0.82]" position OD 1.181", 1-1/4" PVC sch 40 cap OD 2"
   6
 ByLayer
  62
@@ -4017,7 +4015,7 @@ AcDbCircle
  20
 0.7787733443531563
  40
-0.42
+0.5905
   0
 CIRCLE
   5
@@ -4025,7 +4023,7 @@ CIRCLE
 100
 AcDbEntity
   8
-Gland D=2x[0.82]", 1/16" gap
+Gland D=2x[0.82]" position OD 1.181", 1-1/4" PVC sch 40 cap OD 2"
   6
 ByLayer
  62
@@ -4039,55 +4037,11 @@ AcDbCircle
  20
 -0.7787733443531561
  40
-0.42
+0.5905
   0
 CIRCLE
   5
 86
-100
-AcDbEntity
-  8
-Gland D=2x[0.82]" position OD 1.181", 1-1/4" PVC sch 40 cap OD 2"
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-0.4496250000000003
- 20
-0.7787733443531563
- 40
-0.5905
-  0
-CIRCLE
-  5
-87
-100
-AcDbEntity
-  8
-Gland D=2x[0.82]" position OD 1.181", 1-1/4" PVC sch 40 cap OD 2"
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--0.4496250000000004
- 20
--0.7787733443531561
- 40
-0.5905
-  0
-CIRCLE
-  5
-88
 100
 AcDbEntity
   8
@@ -4109,7 +4063,7 @@ AcDbCircle
   0
 CIRCLE
   5
-89
+87
 100
 AcDbEntity
   8
@@ -4131,7 +4085,7 @@ AcDbCircle
   0
 CIRCLE
   5
-8A
+88
 100
 AcDbEntity
   8
@@ -4153,7 +4107,7 @@ AcDbCircle
   0
 CIRCLE
   5
-8B
+89
 100
 AcDbEntity
   8
@@ -4175,7 +4129,7 @@ AcDbCircle
   0
 CIRCLE
   5
-8C
+8A
 100
 AcDbEntity
   8
@@ -4197,7 +4151,7 @@ AcDbCircle
   0
 CIRCLE
   5
-8D
+8B
 100
 AcDbEntity
   8
@@ -4216,6 +4170,50 @@ AcDbCircle
 -1.943187801011523
  40
 0.2
+  0
+CIRCLE
+  5
+8C
+100
+AcDbEntity
+  8
+Gland D=2x[0.82]", 1/16" gap
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+0.4496250000000003
+ 20
+0.7787733443531563
+ 40
+0.41
+  0
+CIRCLE
+  5
+8D
+100
+AcDbEntity
+  8
+Gland D=2x[0.82]", 1/16" gap
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-0.4496250000000004
+ 20
+-0.7787733443531561
+ 40
+0.41
   0
 ENDSEC
   0
